@@ -1,0 +1,221 @@
+client_pin,age_years,city,salary_flag,staff_flag,bankrupt_flag,delinquency_cur_flag,products,cltv_bucket
+30001,32,Московская область,Y,N,N,N,debit;salary;credit_card;credit_loan,low
+30002,47,Московская область,Y,N,N,N,debit,mid
+30003,51,Подольск,Y,N,N,Y,debit;credit_card,mid
+30004,22,Подольск,Y,N,N,N,debit;salary;credit_card;credit_loan,high
+30005,51,Санкт-Петербург,Y,Y,N,N,debit,high
+30006,33,Московская область,N,N,N,N,debit,high
+30007,22,Подольск,Y,N,Y,N,debit,mid
+30008,38,Химки,Y,N,N,N,debit,high
+30009,38,Балашиха,Y,N,N,N,debit;credit_card,mid
+30010,23,Москва,Y,N,N,N,debit;credit_loan,mid
+30011,29,Москва,,N,N,Y,debit;salary,mid
+30012,23,Подольск,Y,N,N,Y,debit;salary,low
+30013,29,Московская область,yes,N,N,N,debit;salary;credit_card,high
+30014,29,Казань,Y,N,N,N,debit;salary,mid
+30015,31,Балашиха,Y,Y,N,N,debit,high
+30016,41,Санкт-Петербург,,N,N,N,debit;credit_card,high
+30017,43,москва,Y,N,N,Y,debit;salary;credit_loan,mid
+30018,32,Химки,Y,N,N,N,debit;salary,high
+30019,38,Казань,Y,Y,N,N,debit;salary;credit_card;credit_loan,low
+30020,56,Балашиха,Y,N,N,N,debit,mid
+30021,47,Казань,Y,N,N,N,debit,mid
+30022,43,Московская область,yes,N,N,Y,debit,low
+30023,33,Санкт-Петербург,yes,N,N,N,debit;salary;credit_card,mid
+30024,23,Москва,Y,N,Y,N,debit;salary,high
+30025,56,Подольск,Y,N,N,Y,debit;salary;credit_card,high
+30026,22,Подольск,Y,N,N,N,debit;salary,mid
+30027,22,Химки,Y,N,N,Y,debit;salary,high
+30028,33,Москва,yes,N,N,N,debit;salary;credit_card,high
+30029,36,Санкт-Петербург,Y,N,N,N,debit,low
+30030,32,Балашиха,,N,N,N,debit;salary,low
+30031,28,Москва,Y,N,N,N,debit;salary;credit_card,high
+30032,36,Москва,Y,N,N,N,debit;salary,high
+30033,31,Балашиха,Y,N,N,N,debit;salary,mid
+30034,26,москва,Y,N,N,N,debit;credit_card,mid
+30035,38,Московская область,Y,N,Y,Y,debit;salary;credit_card,high
+30036,28,Подольск,Y,Y,N,N,debit;salary,high
+30037,51,Химки,Y,N,N,N,debit;credit_card,mid
+30038,41,Казань,Y,N,N,N,debit;salary;credit_card;credit_loan,high
+30039,31,Московская область,Y,N,N,N,debit,low
+30040,56,Химки,Y,N,N,Y,debit;salary;credit_card,high
+30041,43,Подольск,Y,N,N,N,debit;salary;credit_card;credit_loan,low
+30042,31,Балашиха,yes,N,N,N,debit;salary;credit_loan,high
+30043,33,Балашиха,Y,N,N,N,debit,low
+30044,31,Санкт-Петербург,Y,N,N,N,debit;salary,high
+30045,36,Балашиха,Y,N,N,N,debit;salary,high
+30046,56,Москва,Y,N,N,Y,debit;salary;credit_card;credit_loan,mid
+30047,56,Москва,Y,N,N,N,debit;credit_loan,low
+30048,23,Балашиха,Y,N,N,N,debit;salary,high
+30049,23,Балашиха,Y,N,N,N,debit;salary,high
+30050,29,Москва,N,N,N,Y,debit,high
+30051,41,москва,Y,N,N,N,debit,high
+30052,23,Казань,Y,N,N,N,debit;salary;credit_loan,low
+30053,28,Подольск,Y,N,N,Y,debit;salary,low
+30054,38,Санкт-Петербург,Y,N,N,N,debit;salary;credit_card,low
+30055,26,Москва,,N,N,N,debit;credit_card;credit_loan,mid
+30056,51,Москва,Y,N,N,N,debit;credit_card,mid
+30057,43,Московская область,N,N,N,N,debit,mid
+30058,28,Санкт-Петербург,Y,N,N,Y,debit;salary,high
+30059,31,Москва,,N,N,N,debit;salary,high
+30060,56,Московская область,yes,Y,N,N,debit;salary,mid
+30061,32,Балашиха,Y,N,N,N,debit,low
+30062,51,Химки,N,N,N,N,debit,high
+30063,36,Казань,,N,N,N,debit;salary;credit_card,low
+30064,23,Санкт-Петербург,Y,N,N,N,debit;salary,mid
+30065,31,Москва,Y,N,N,N,debit;salary,high
+30066,29,Химки,N,N,N,N,debit;salary,mid
+30067,51,Московская область,yes,N,N,N,debit,mid
+30068,22,москва,Y,N,N,N,debit,low
+30069,31,Балашиха,Y,N,N,N,debit;salary,mid
+30070,22,Подольск,Y,N,N,N,debit;salary;credit_loan,mid
+30071,31,Санкт-Петербург,Y,Y,N,N,debit;salary,high
+30072,28,Московская область,Y,N,N,N,debit;credit_card,high
+30073,26,Московская область,,N,N,N,debit;credit_card,low
+30074,41,Подольск,Y,N,N,N,debit;credit_card;credit_loan,low
+30075,32,Подольск,Y,N,N,N,debit;salary,mid
+30076,28,Казань,Y,N,N,N,debit;salary,mid
+30077,32,Подольск,Y,N,Y,N,debit;salary,high
+30078,56,Подольск,Y,N,N,N,debit;salary;credit_card,high
+30079,23,Подольск,Y,Y,N,N,debit,high
+30080,32,Московская область,Y,N,N,Y,debit,mid
+30081,41,Москва,Y,N,N,Y,debit;credit_card,high
+30082,26,Химки,Y,N,N,N,debit;salary,high
+30083,43,Казань,Y,Y,N,N,debit;credit_loan,mid
+30084,36,Казань,Y,N,N,N,debit;salary,high
+30085,33,москва,Y,N,N,N,debit;credit_card,high
+30086,23,Подольск,Y,N,N,N,debit;credit_loan,mid
+30087,43,Химки,Y,N,N,Y,debit;salary,low
+30088,41,Москва,N,Y,N,Y,debit;salary;credit_loan,high
+30089,38,Балашиха,N,N,N,Y,debit,mid
+30090,22,Московская область,Y,N,N,N,debit;salary,low
+30091,47,Казань,Y,N,N,N,debit;credit_loan,mid
+30092,51,Балашиха,Y,N,N,N,debit,mid
+30093,38,Москва,yes,N,N,N,debit,low
+30094,22,Санкт-Петербург,Y,N,N,N,debit;credit_card,mid
+30095,38,Москва,Y,N,N,N,debit;salary;credit_loan,mid
+30096,36,Московская область,Y,N,N,N,debit,high
+30097,38,Казань,Y,N,N,N,debit;salary;credit_card,low
+30098,26,Балашиха,Y,N,N,N,debit;credit_card,high
+30099,47,Казань,Y,N,Y,N,debit;salary;credit_loan,mid
+30100,26,Подольск,Y,N,N,N,debit;salary;credit_card,mid
+30101,33,Московская область,Y,N,N,N,debit;credit_card,high
+30102,47,москва,Y,N,N,N,debit,low
+30103,47,Московская область,Y,N,N,N,debit;salary;credit_card,low
+30104,47,Москва,Y,N,N,N,debit;credit_card,high
+30105,41,Москва,Y,N,N,N,debit;salary;credit_card,low
+30106,26,Казань,Y,N,N,N,debit;credit_card;credit_loan,mid
+30107,33,Химки,N,N,N,N,debit,high
+30108,38,Подольск,Y,N,N,N,debit;credit_loan,mid
+30109,29,Подольск,Y,N,Y,N,debit,mid
+30110,28,Балашиха,Y,N,N,Y,debit,high
+30111,29,Москва,Y,N,N,N,debit;salary;credit_card,low
+30112,31,Балашиха,Y,Y,N,Y,debit;salary,high
+30113,51,Балашиха,Y,N,N,N,debit,high
+30114,26,Казань,Y,N,N,N,debit;salary,high
+30115,41,Санкт-Петербург,Y,N,N,N,debit;salary;credit_loan,low
+30116,26,Санкт-Петербург,yes,N,N,N,debit;credit_card,mid
+30117,29,Москва,,N,N,Y,debit;salary,mid
+30118,51,Подольск,Y,N,N,N,debit;salary,high
+30119,22,москва,Y,N,N,N,debit,low
+30120,36,Московская область,,N,N,N,debit;salary,low
+30121,32,Балашиха,Y,N,N,N,debit,mid
+30122,33,Химки,Y,N,N,Y,debit,high
+30123,28,Подольск,Y,N,N,N,debit;salary,low
+30124,32,Санкт-Петербург,Y,N,N,N,debit,mid
+30125,41,Казань,Y,N,N,N,debit,high
+30126,28,Москва,Y,N,N,N,debit;credit_card,low
+30127,47,Подольск,,N,N,N,debit;salary;credit_card,low
+30128,51,Московская область,,N,N,N,debit;credit_card,low
+30129,23,Московская область,,N,N,N,debit;credit_card,high
+30130,32,Химки,Y,N,N,N,debit,low
+30131,26,Московская область,Y,N,N,N,debit,high
+30132,56,Санкт-Петербург,Y,N,N,N,debit,low
+30133,41,Московская область,Y,N,N,N,debit,mid
+30134,56,Химки,Y,N,N,N,debit;credit_card,low
+30135,36,Москва,Y,N,N,N,debit;salary;credit_card,high
+30136,28,москва,Y,N,N,N,debit;credit_card,high
+30137,29,Московская область,Y,N,N,N,debit,mid
+30138,23,Казань,Y,N,N,N,debit;salary;credit_card,high
+30139,33,Московская область,Y,N,Y,N,debit;salary,high
+30140,22,Казань,Y,N,N,N,debit,low
+30141,56,Химки,Y,N,N,Y,debit,high
+30142,22,Санкт-Петербург,N,N,N,N,debit;salary;credit_card,high
+30143,56,Балашиха,Y,N,N,N,debit;credit_card,high
+30144,32,Химки,Y,N,N,Y,debit;salary;credit_card,low
+30145,29,Санкт-Петербург,yes,N,N,N,debit;salary;credit_card,high
+30146,51,Санкт-Петербург,yes,N,N,N,debit;credit_loan,mid
+30147,51,Санкт-Петербург,Y,N,N,N,debit;salary,low
+30148,28,Химки,N,N,N,Y,debit;credit_card,high
+30149,56,Балашиха,,N,N,N,debit;salary,low
+30150,23,Подольск,Y,N,N,Y,debit;credit_card,high
+30151,56,Казань,N,N,N,N,debit;salary,low
+30152,56,Московская область,Y,N,N,N,debit;salary;credit_card,low
+30153,36,москва,Y,Y,N,N,debit;salary,mid
+30154,43,Московская область,yes,N,N,N,debit,low
+30155,47,Санкт-Петербург,Y,N,N,Y,debit;salary,low
+30156,36,Химки,N,N,N,N,debit;salary,low
+30157,28,Подольск,Y,N,N,N,debit;credit_card;credit_loan,mid
+30158,38,Балашиха,Y,N,N,N,debit;credit_loan,mid
+30159,26,Санкт-Петербург,Y,N,N,N,debit;salary,mid
+30160,22,Химки,Y,N,N,N,debit;salary,low
+30161,26,Москва,yes,N,N,N,debit;salary,mid
+30162,32,Химки,yes,N,N,N,debit;credit_card,low
+30163,31,Подольск,Y,N,N,N,debit;credit_card,mid
+30164,36,Москва,Y,N,N,N,debit;salary;credit_card,mid
+30165,26,Москва,Y,N,N,N,debit;salary,high
+30166,32,Химки,Y,N,N,Y,debit;salary;credit_loan,low
+30167,31,Химки,N,N,N,N,debit;salary,mid
+30168,33,Московская область,Y,N,N,Y,debit;salary,mid
+30169,43,Санкт-Петербург,yes,N,N,N,debit,high
+30170,23,москва,Y,N,N,N,debit;salary;credit_card,low
+30171,43,Санкт-Петербург,Y,N,N,Y,debit;credit_card,mid
+30172,32,Москва,Y,N,N,N,debit;credit_loan,high
+30173,51,Казань,Y,N,N,N,debit,mid
+30174,43,Подольск,Y,N,N,N,debit,mid
+30175,29,Казань,Y,N,N,Y,debit;salary,high
+30176,56,Химки,Y,N,N,N,debit;credit_card,mid
+30177,51,Подольск,Y,N,N,N,debit;salary,high
+30178,47,Москва,Y,N,N,N,debit;credit_card,high
+30179,23,Казань,,N,N,Y,debit;credit_card,low
+30180,22,Балашиха,Y,N,N,N,debit;credit_card,low
+30181,56,Москва,Y,N,N,N,debit,high
+30182,33,Москва,Y,N,N,N,debit;salary,high
+30183,26,Химки,Y,N,N,N,debit;salary;credit_loan,low
+30184,23,Балашиха,Y,N,N,Y,debit,low
+30185,26,Московская область,Y,N,N,N,debit,low
+30186,22,Подольск,Y,N,Y,Y,debit;salary,high
+30187,28,москва,yes,N,N,Y,debit;salary,mid
+30188,32,Подольск,Y,N,N,N,debit;salary;credit_loan,mid
+30189,41,Балашиха,yes,N,N,Y,debit;salary,high
+30190,31,Московская область,yes,N,N,N,debit;salary,high
+30191,31,Казань,Y,N,N,Y,debit;salary,mid
+30192,32,Балашиха,Y,N,N,N,debit,high
+30193,33,Казань,N,N,N,Y,debit,high
+30194,47,Московская область,Y,N,N,N,debit;salary,high
+30195,22,Московская область,Y,N,Y,N,debit;credit_card,high
+30196,43,Балашиха,,N,N,N,debit,low
+30197,29,Московская область,yes,N,N,N,debit;salary;credit_card,low
+30198,32,Химки,Y,N,N,N,debit;salary,high
+30199,41,Москва,,N,N,N,debit;salary,low
+30200,26,Санкт-Петербург,Y,N,N,N,debit;salary,mid
+30201,36,Московская область,,N,N,N,debit;salary,high
+30202,41,Подольск,N,N,N,N,debit,mid
+30203,31,Санкт-Петербург,,N,N,N,debit,high
+30204,32,москва,Y,N,N,Y,debit;credit_loan,high
+30205,28,Санкт-Петербург,yes,N,N,N,debit;salary,high
+30206,36,Балашиха,Y,N,N,Y,debit,low
+30207,29,Химки,Y,N,N,N,debit,mid
+30208,23,Московская область,Y,N,N,N,debit;salary,mid
+30209,26,Санкт-Петербург,Y,N,N,N,debit;credit_loan,low
+30210,38,Балашиха,,N,N,N,debit;credit_card,mid
+30211,56,Санкт-Петербург,Y,N,N,N,debit;credit_loan,low
+30212,23,Подольск,,N,N,N,debit;salary,mid
+30213,26,Москва,Y,N,N,N,debit,high
+30214,43,Подольск,Y,N,N,Y,debit;salary,high
+30215,26,Московская область,N,N,N,N,debit;credit_card,mid
+30216,29,Балашиха,Y,N,N,N,debit;credit_card,low
+30217,56,Балашиха,Y,N,N,N,debit,low
+30218,47,Московская область,Y,N,N,N,debit;credit_card,low
+30219,26,Балашиха,Y,N,N,N,debit,mid
+30220,43,Москва,Y,N,N,N,debit;salary,high
