@@ -1,0 +1,5 @@
+comm_id,client_pin,comm_date,comm_type,channel,offer_id,success
+h-00001,30001,2025-01-16,sms_cashback,sms,CASHBACK_5,0
+h-00002,30001,2025-02-02,push_cashback,push,CASHBACK_5,True
+h-00003,30001,2025-02-10,push_cashback,push,CASHBACK_5,0
+h-00004,30001,2025-02-19,sms_cashback,sms,CASHBACK_5,0
