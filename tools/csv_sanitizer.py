@@ -14,7 +14,7 @@ CsvModel = type[Client] | type[Communication]
 
 
 class CsvValidationError(ValueError):
-    """CSV не соответствует минимальной структуре истории коммуникаций."""
+    """CSV не соответствует требованиям."""
 
 
 class CsvSanitizationWarning(UserWarning):
@@ -69,6 +69,13 @@ class CsvSanitizer:
 
         sanitized = data.copy()
         if model is Client:
+            try:
+                sanitized["age_years"] = pd.to_numeric(sanitized["age_years"], errors="raise")
+            except ValueError as e:
+                errors.append(
+                    self._issue(CsvValidationError, "Некорректные значения age_years: "
+                                f"{e}.", e)
+                )
             return CsvSanitizationResult(sanitized, errors, warnings)
 
         original_dates = sanitized["comm_date"]
