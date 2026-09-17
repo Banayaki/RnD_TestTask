@@ -186,8 +186,8 @@ flowchart TD
 
     H --> I{n_own = 0?}
     I -- Да --> I1[p_own = p_sim]
-    I -- Нет --> J[""]
-    I1 --> J
+    I -- Нет --> M
+    I1 --> M
 
     G --> K[Проверить свежие коммуникации]
     K --> L{Есть неуспешные<br/>в fatigue-окне?}
@@ -195,7 +195,6 @@ flowchart TD
     L -- Нет --> L2[fatigue = 1.0]
 
     F --> M{n_own >= 3?}
-    J --> M
 
     M -- Да --> N[P_raw = 0.7 * p_sim<br/>+ 0.3 * p_own]
     M -- Нет --> O[P_raw = p_sim]
