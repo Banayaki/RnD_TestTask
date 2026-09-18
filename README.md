@@ -3,7 +3,7 @@
 ## Инструкция для запуска
 ```bash
 uv sync
-uv run streamlit run main.py
+uv run app
 ```
 
 ## Детали использования
