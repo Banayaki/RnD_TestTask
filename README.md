@@ -6,6 +6,16 @@ uv sync
 uv run app
 ```
 
+### Docker Compose
+
+Из корня репозитория соберите и запустите приложение:
+
+```bash
+docker compose -f docker/docker-compose.yml up --build
+```
+
+После запуска интерфейс доступен по адресу `http://localhost:8501`.
+
 ## Детали использования
 Настройки не обязательно передавать через `.env` файл.
 

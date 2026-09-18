@@ -1,0 +1,9 @@
+.git
+.venv
+.codex
+__pycache__
+*.pyc
+.env
+tests
+notebooks
+**.egg-info
