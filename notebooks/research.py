@@ -20,10 +20,10 @@ def _():
     import pandas as pd
     import seaborn as sns
 
-    from model import Client, CommType, Communication
-    from service import ClientCommSimpleService
-    from settings import settings
-    from tools import CsvSanitizer
+    from rnd_test_task.model import Client, CommType, Communication
+    from rnd_test_task.service import ClientCommSimpleService
+    from rnd_test_task.settings import settings
+    from rnd_test_task.tools import CsvSanitizer
 
     return (
         Client,
