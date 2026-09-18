@@ -20,3 +20,13 @@ dev = [
     "pytest>=9.1.1",
     "ruff>=0.16.7",
 ]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["rnd_test_task*"]
+
+[project.scripts]
+app = "rnd_test_task.cli:main"

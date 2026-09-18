@@ -2,8 +2,8 @@ from abc import ABC, abstractmethod
 
 import pandas as pd
 
-from model import Client, CommType, Prediction
-from settings import Settings
+from rnd_test_task.model import Client, CommType, Prediction
+from rnd_test_task.settings import Settings
 
 
 class ClientCommService(ABC):

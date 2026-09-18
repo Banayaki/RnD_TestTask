@@ -1,18 +1,16 @@
-import inspect
 from dataclasses import fields
 from datetime import datetime
 from io import StringIO
-from profile import run
 
 import pandas as pd
 import streamlit as st
 from loguru import logger
 
-from model import Client, CommType, Communication, Prediction
-from service import ClientCommService
-from settings import Settings, settings
-from tools import CsvSanitizationResult, CsvSanitizer
-from ui.styles import APP_CSS
+from rnd_test_task.model import Client, CommType, Communication, Prediction
+from rnd_test_task.service import ClientCommService
+from rnd_test_task.settings import Settings, settings
+from rnd_test_task.tools import CsvSanitizationResult, CsvSanitizer
+from rnd_test_task.ui.styles import APP_CSS
 
 COMM_TYPE_LABELS = {
     CommType.PUSH_CASHBACK: "Пуш · кэшбэк",

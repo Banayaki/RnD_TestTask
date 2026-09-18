@@ -1,9 +1,9 @@
 import pandas as pd
 from loguru import logger
 
-from model import Client, CommType, Prediction
-from service.client_comm_service import ClientCommService
-from settings import Settings, settings
+from rnd_test_task.model import Client, CommType, Prediction
+from rnd_test_task.service.client_comm_service import ClientCommService
+from rnd_test_task.settings import Settings, settings
 
 
 class ClientCommSimpleService(ClientCommService):

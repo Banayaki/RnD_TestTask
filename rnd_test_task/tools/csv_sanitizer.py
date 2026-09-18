@@ -3,11 +3,12 @@ from dataclasses import dataclass, fields
 from os import PathLike
 from typing import IO
 
+import numpy as np
 import pandas as pd
 from loguru import logger
 
-from model.client import Client
-from model.communication import Communication
+from rnd_test_task.model.client import Client
+from rnd_test_task.model.communication import Communication
 
 VALID_SUCCESS_VALUES = frozenset({0, 1, "0", "1"})
 CsvModel = type[Client] | type[Communication]
@@ -102,6 +103,8 @@ class CsvSanitizer:
                     f"Недопустимые значения success: {values}.",
                 )
             )
+        else:
+            sanitized = sanitized.astype({"success": int})
         return CsvSanitizationResult(sanitized, errors, warnings)
 
     @staticmethod
@@ -148,5 +151,21 @@ class CsvSanitizer:
 
     @staticmethod
     def _find_invalid_success_values(success: pd.Series) -> tuple[object, ...]:
-        invalid = success[~success.isin(VALID_SUCCESS_VALUES)]
+        # In case when table have single row with boolean type this will help
+        if success.dtype == bool:
+            return ("Присутствуют значения типа `bool`", )
+        # Floats for the same reason
+        if success.dtype == float:
+            return ("Присутствуют данные некорректного типа", )
+
+        mask_valid = success.apply(CsvSanitizer._is_strict_valid_success)
+        invalid = success[~mask_valid]
         return tuple(pd.unique(invalid).tolist())
+
+    @staticmethod
+    def _is_strict_valid_success(x: object) -> bool:
+        if isinstance(x, (bool, np.bool_)):
+            return False
+        if isinstance(x, (float, np.floating)):
+            return False
+        return x in VALID_SUCCESS_VALUES

@@ -1,6 +1,6 @@
-from service import ClientCommService, ClientCommSimpleService
-from tools import CsvSanitizer
-from ui import StreamlitApp
+from rnd_test_task.service import ClientCommService, ClientCommSimpleService
+from rnd_test_task.tools import CsvSanitizer
+from rnd_test_task.ui import StreamlitApp
 
 
 def get_client_comm_service() -> ClientCommService:
